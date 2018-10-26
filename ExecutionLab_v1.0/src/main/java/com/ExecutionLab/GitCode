@@ -1,0 +1,16 @@
+//    @BeforeSuite
+//    public void should_connect_using_user_pass() throws IOException, GitAPIException {
+//        final String REMOTE_URL = "https://github.com/J4U-Nimbus/Content_Portal_Automation.git";
+//        // prepare a new folder for the cloned repository
+//        File localPath = File.createTempFile("ContentPortal", "");
+//        localPath.delete();
+//        // then clone
+//        try (Git result = Git.cloneRepository()
+//                .setURI(REMOTE_URL)
+//                .setCredentialsProvider(new UsernamePasswordCredentialsProvider("bkuma03", "Chgbk@1216"))
+//                .setDirectory(localPath)
+//                .call()) {
+//
+//            System.out.println("Having repository: " + result.getRepository().getDirectory());
+//        }
+//    }
